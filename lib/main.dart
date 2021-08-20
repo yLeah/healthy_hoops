@@ -40,15 +40,30 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
+      child: SingleChildScrollView( 
+        scrollDirection: Axis.vertical,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             AidCard(
                 cardName: "sprained ankle",
-                cardImage: "images/sprained ankle.jpg",),
+                cardImage: "images/sprained_ankle.jpg",
+                ),
+            AidCard(
+              cardName: "knee injury", 
+              cardImage: "images/knee_injury.jpg",
+              ),
+            AidCard(
+              cardName: "jammed fingers",
+             cardImage: "images/jammed_fingers.jpg",
+             ),
+            AidCard(
+              cardName: "foot fractures",
+             cardImage: "images/foot_fractures.jpg",
+             ),
           ],
         ),
-      ),
+      ),),
     );
   }
 }
