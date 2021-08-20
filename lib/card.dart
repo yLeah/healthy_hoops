@@ -33,6 +33,7 @@ class AidCard extends StatelessWidget {
           style: TextStyle(
             fontSize: 40,
             fontWeight: FontWeight.bold,
+            color: Colors.white,
             shadows: <Shadow>[
               Shadow(
                 offset: Offset(3.0, 3.0),

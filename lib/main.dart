@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'card.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,6 +43,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            AidCard(
+                cardName: "sprained ankle",
+                cardImage: "images/sprained ankle.jpg",),
           ],
         ),
       ),
