@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'card.dart';
+import 'widgets/card.dart';
 
 void main() {
   runApp(MyApp());
@@ -62,6 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
               cardName: "foot fractures",
              cardImage: "images/foot_fractures.jpg",
              ),
+            AidCard(
+              cardName: "basketball quiz", 
+              cardImage: "images/basketball_quiz.jpg"
+              ),
           ],
         ),
       ),),
