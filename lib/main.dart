@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Slam Dunks',
+      title: 'Healthy Hoops',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.orange.shade400,
       ),
-      home: MyHomePage(title: 'Slam Dunks!'),
+      home: MyHomePage(title: 'Healthy Hoops'),
     );
   }
 }
