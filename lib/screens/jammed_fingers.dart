@@ -70,7 +70,8 @@ class JammedFingers extends StatelessWidget {
           ),
         ),
         Text(
-          'Write about treatments here'
+          'More of a basketball related injury, jammed fingers can be quite painful if not taken care of properly. Just like with almost all sport injuries you want to start with the ‘RICE’ method. RICE stands for “Rest, Ice, Compression, Elevation”, it prevents swelling and promotes the acceleration of the healing process. Making sure you keep the blood flow away from your injury and don’t exert it to a fuller extent is crucial in getting a player back on the court. Physical therapy is recommended to promote the strengthening of your fingers which can make you less likely to get re-injured. If stabilization is needed, using a splint or buddy taping is a great way to provide that needed support. Similar to a knee brace for a finger, this keeps the muscles and injury in place while adding compression so it can heal faster. If the fingers have been basically permanently displaced, surgery may be recommended, again this is for the more severe cases. Ask your doctor how you should go about treating your jammed fingers.',
+          style: TextStyle(fontSize: 18.0),
         ),
       ]
     ),

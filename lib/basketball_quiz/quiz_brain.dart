@@ -17,18 +17,18 @@ class QuizBrain {
         'The longest game in NBA history went for 78 minutes',
         true),
     Question(
-        'write here',
+        'The Moneyball is just red and white',
         false),
     Question(
-        'write here',
-        true),
-    Question('write here', true),
+        'Before 1966, the NBA had national draft picks',
+        false),
+    Question('NBA floors are made of hard maple.', true),
     Question(
-        'write here',
-        true),
+        'Before basketball games, teams are provided with 8 balls for warmups',
+        false),
     Question(
-        'write here',
-        true),
+        'Per game, an NBA player runs about 2 miles',
+        false),
   ];
 
   void nextquestion() {

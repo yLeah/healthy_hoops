@@ -70,7 +70,8 @@ class SprainedAnkle extends StatelessWidget {
           ),
         ),
         Text(
-          'Write about treatments here'
+          'Starting with treatments accessible in the home, a cold compress is a great way to reduce swelling by slightly decreasing circulation in that area using pressure and low temperatures to slow the movement of blood. Another simple treatment known for its widespread application in many sports injuries is the “RICE” method. RICE stands for “Rest, Ice, Compression, Elevation”, it prevents swelling and promotes the acceleration of the healing process. Making sure you keep the blood flow away from your injury and don’t exert it to a fuller extent is crucial in getting a player back on the court. If the swelling becomes painful or the injury is just generally more severe, you may have to resort to some medicinal methods such as anti-inflammatory medications which just help manage the side effects of a sprained ankle, mostly the pain and swelling. At the most serious level of sprained ankles (quite rare of a case), it may require surgery to get back to a functional level (even then the ankle may never fully heal to its previous functionality). Talk to your doctor to get more information on how you should treat your sprained ankle.',
+          style: TextStyle(fontSize: 18.0),
         ),
       ]
     ),
