@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:slam_dunks/screens/sprained_ankle.dart';
+import 'package:slam_dunks/screens/knee_injury.dart';
+import 'package:slam_dunks/screens/jammed_fingers.dart';
+import 'package:slam_dunks/screens/foot_fractures.dart';
+import 'package:slam_dunks/basketball_quiz/basketball_quiz.dart';
 
 class AidCard extends StatelessWidget {
   final String cardName;
@@ -44,6 +49,48 @@ class AidCard extends StatelessWidget {
         ),
       ],
     ),
+    onTap: () {
+       Widget pageNav;
+
+       switch (pageNavigation) {
+         case "sprained ankle":
+         {
+           pageNav = SprainedAnkle();
+         }
+         break;
+        case "knee injury": 
+        {
+          pageNav = KneeInjury();
+        }
+          break;
+        case "jammed fingers":
+        {
+          pageNav = JammedFingers();
+        }
+          break;
+        case "foot fractures":
+        {
+          pageNav = FootFractures();
+        }
+          break;
+        case "basketball quiz":
+        {
+          pageNav = BasketballQuiz();
+        }
+          break;
+        default:
+        {
+          pageNav = SprainedAnkle();
+        }
+          break;
+       }
+       
+       Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => pageNav,
+          ),
+        );
+      }
     );
   }
 }

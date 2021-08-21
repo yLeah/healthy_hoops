@@ -6,7 +6,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -49,22 +48,27 @@ class _MyHomePageState extends State<MyHomePage> {
             AidCard(
                 cardName: "sprained ankle",
                 cardImage: "images/sprained_ankle.jpg",
+                pageNavigation: "sprained ankle",
                 ),
             AidCard(
               cardName: "knee injury", 
               cardImage: "images/knee_injury.jpg",
+              pageNavigation: "knee injury",
               ),
             AidCard(
               cardName: "jammed fingers",
              cardImage: "images/jammed_fingers.jpg",
+             pageNavigation: "jammed fingers",
              ),
             AidCard(
               cardName: "foot fractures",
              cardImage: "images/foot_fractures.jpg",
+             pageNavigation: "foot fractures",
              ),
             AidCard(
               cardName: "basketball quiz", 
-              cardImage: "images/basketball_quiz.jpg"
+              cardImage: "images/basketball_quiz.jpg",
+              pageNavigation: "basketball quiz",
               ),
           ],
         ),
