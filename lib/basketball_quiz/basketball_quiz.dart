@@ -36,7 +36,7 @@ class _QuizPageState extends State<QuizPage> {
       if (quizBrain.isFinished() == true) {
         Alert(
           context: context,
-          title: 'Finished!',
+          title: 'Congratulations!',
           desc: 'You\'ve reached the end of the quiz',
         ).show();
         quizBrain.reset();
@@ -44,7 +44,7 @@ class _QuizPageState extends State<QuizPage> {
       } else {
         if (userPickedAnswer == correctAnswer) {
           scoreKeeper.add(Icon(
-            Icons.check,
+            Icons.sports_basketball,
             color: Colors.green,
           ));
         } else {
@@ -74,7 +74,7 @@ class _QuizPageState extends State<QuizPage> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
             ),

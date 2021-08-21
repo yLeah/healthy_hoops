@@ -4,30 +4,30 @@ class QuizBrain {
   int _questionNumber = 0;
 
   List<Question> _questionBank = [
-    Question('Some cats are actually allergic to humans', true),
-    Question('You can lead a cow down stairs but not up stairs.', false),
-    Question('Approximately one quarter of human bones are in the feet.', true),
-    Question('A slug\'s blood is green.', true),
-    Question('Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', true),
-    Question('It is illegal to pee in the Ocean in Portugal.', true),
+    Question('Basketball was originally played with a different ball', true),
+    Question('The first basketballs were orange', false),
+    Question('Throughout the NBA\’s entirety, steals and blocks were recorded', false),
+    Question('The shot clock was introduced in the NBA’s 1954-1955 season', true),
+    Question('The first basketball game in Europe was arranged by Mel Rideout', true),
+    Question('Originally, the Harlem Globetrotters were from Harlem', false),
     Question(
-        'No piece of square dry paper can be folded in half more than 7 times.',
+        'Goaltending was not considered a violation in 1945',
         false),
     Question(
-        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
+        'The longest game in NBA history went for 78 minutes',
         true),
     Question(
-        'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
+        'write here',
         false),
     Question(
-        'The total surface area of two human lungs is approximately 70 square metres.',
+        'write here',
         true),
-    Question('Google was originally called \"Backrub\".', true),
+    Question('write here', true),
     Question(
-        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
+        'write here',
         true),
     Question(
-        'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
+        'write here',
         true),
   ];
 
